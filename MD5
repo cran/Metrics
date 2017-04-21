@@ -1,4 +1,4 @@
-f1d63ba826b20ac9fbd48f3ae795a912 *DESCRIPTION
+138276fd1cb8a8c61fcfaa40a2b53692 *DESCRIPTION
 14609bfe8070abd6b2f3c497f613e93d *NAMESPACE
 1cc1ba0ddf2f990eb59b7cfcf868bac6 *NEWS
 f5b4f3c2dedd25efa4d63748114bd39f *R/metrics.r
@@ -23,5 +23,4 @@ eac72a798aa37f0f44287dbcc77391b8 *man/mse.Rd
 8b4b510f498d122266d27b4863a18612 *man/rmsle.Rd
 4bde5b485e149512ded916927424eba2 *man/se.Rd
 0bd02b7ad37057e3048c36e9a33529b9 *man/sle.Rd
-a7d13fad9a325e9d578d996886dccb27 *run_tests.sh
-4b58e215b5157a6dad6aa587db319898 *tests/test_all.r
+c18bf510dd3ab1736c7df3ad7e3f1dc9 *tests/test_all.R

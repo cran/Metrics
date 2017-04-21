@@ -1,13 +1,18 @@
 Package: Metrics
-Title: Evaluation metrics for machine learning
+Title: Evaluation Metrics for Machine Learning
 Description: Metrics is a set of evaluation metrics that is commonly
         used in supervised machine learning.
 URL: https://github.com/benhamner/Metrics/tree/master/R
-Version: 0.1.1
-Maintainer: Ben Hamner <ben@benhamner.com>
+Version: 0.1.2
+Suggests: RUnit
+Maintainer: ORPHANED
 Author: Ben Hamner <ben@benhamner.com>
 License: BSD
 Collate: 'metrics.r'
-Packaged: 2012-06-19 17:55:04 UTC; benjaminhamner
+Packaged: 2017-04-21 14:50:30 UTC; ripley
 Repository: CRAN
-Date/Publication: 2012-06-20 06:57:56
+Date/Publication: 2017-04-21 14:55:21 UTC
+NeedsCompilation: no
+X-CRAN-Original-Maintainer: Ben Hamner <ben@benhamner.com>
+X-CRAN-Comment: Orphaned and corrected on 2017-04-21 as check errors
+        were not corrected despite reminders.
