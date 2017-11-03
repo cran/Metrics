@@ -1,18 +1,25 @@
 Package: Metrics
+Version: 0.1.3
 Title: Evaluation Metrics for Machine Learning
-Description: Metrics is a set of evaluation metrics that is commonly
-        used in supervised machine learning.
-URL: https://github.com/benhamner/Metrics/tree/master/R
-Version: 0.1.2
-Suggests: RUnit
-Maintainer: ORPHANED
-Author: Ben Hamner <ben@benhamner.com>
-License: BSD
-Collate: 'metrics.r'
-Packaged: 2017-04-21 14:50:30 UTC; ripley
-Repository: CRAN
-Date/Publication: 2017-04-21 14:55:21 UTC
+Description: An implementation of evaluation metrics in R that are commonly
+             used in supervised machine learning. It implements metrics for
+             regression, time series, binary classification, classification,
+             and information retrieval problems. It has zero dependencies and
+             a consistent, simple interface for all functions.
+Authors@R: c(
+    person("Ben", "Hamner", role = c("aut", "cph"), email = "ben@benhamner.com"),
+    person("Michael", "Frasco", role = c("aut", "cre"), email = "mfrasco6@gmail.com"),
+    person("Erin", "LeDell", role = c("ctb"), email = "oss@ledell.org"))
+Maintainer: Michael Frasco <mfrasco6@gmail.com>
+Suggests: testthat
+URL: https://github.com/mfrasco/Metrics
+BugReports: https://github.com/mfrasco/Metrics/issues
+License: BSD_3_clause + file LICENSE
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-X-CRAN-Original-Maintainer: Ben Hamner <ben@benhamner.com>
-X-CRAN-Comment: Orphaned and corrected on 2017-04-21 as check errors
-        were not corrected despite reminders.
+Packaged: 2017-11-03 07:01:17 UTC; mfrasco
+Author: Ben Hamner [aut, cph],
+  Michael Frasco [aut, cre],
+  Erin LeDell [ctb]
+Repository: CRAN
+Date/Publication: 2017-11-03 08:12:38
